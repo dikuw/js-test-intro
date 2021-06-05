@@ -12,7 +12,7 @@ const addUser = () => {
   const newUserNameInput = document.querySelector('input#name');
   const newUserAgeInput = document.querySelector('input#age');
 
-  const outputText = generateText(
+  const outputText = checkAndGenerate(
     newUserNameInput.value,
     newUserAgeInput.value
   );
